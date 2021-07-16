@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Nav from 'react-bootstrap/Nav';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{width: '800px'}}>
+        <Nav fixed="top"  className="justify-content-justify" activeKey="/home">
+    <Nav.Item>
+      <Nav.Link href="/home">Bimali Wickramasinghe</Nav.Link>
+    </Nav.Item>
+    <Nav.Item style={{paddingLeft: '30px'}}>
+      <Nav.Link eventKey="link-2">Work</Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+    <NavDropdown title="Play" id="basic-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Illustrations</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="#action/3.2">Games</NavDropdown.Item>
+      </NavDropdown>
+    </Nav.Item>
+  </Nav>
+      
     </div>
   );
 }

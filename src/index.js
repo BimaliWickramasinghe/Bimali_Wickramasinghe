@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import FlexboxPage from './components/FlexboxPage.js';
+import Body from './components/body.js';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FlexboxPage />
+    <Body />
   </React.StrictMode>,
   document.getElementById('root')
 );
