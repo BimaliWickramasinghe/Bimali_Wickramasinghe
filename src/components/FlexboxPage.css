@@ -1,25 +1,25 @@
-#nav-dropdown{
-    color: black;
+#nav-dropdown {
+  color: black;
 }
 
-mark{
-    background-color:#F3EF7C;
-   }
-
-#bg1{
-    background-color:#96FF72;
+mark {
+  background-color: #f3ef7c;
 }
 
-#bg2{
-    background-color:#75DEFF;
+#bg1 {
+  background-color: #96ff72;
 }
 
-#bg3{
-    background-color:#FF759E;
+#bg2 {
+  background-color: #75deff;
 }
 
-#addShadow{
-    box-shadow: 5px 5px 10px #888888;
+#bg3 {
+  background-color: #ff759e;
+}
+
+#addShadow {
+  box-shadow: 5px 5px 10px #888888;
 }
 
 .container2,
@@ -37,47 +37,189 @@ mark{
 }
 
 @media (min-width: 576px) {
-    .container2, .container2-csm {
-      max-width: 500px;
-    }
+  .container2,
+  .container2-csm {
+    max-width: 500px;
   }
-  
-  @media (min-width: 768px) {
-    .container2, .container2-csm, .container2-md {
-      max-width: 720px;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .container2, .container2-csm, .container2-md, .container2-lg {
-      max-width: 900px;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .container2, .container2-csm, .container2-md, .container2-lg, .container2-xl {
-      max-width: 900px;
-    }
-  }
+}
 
-  @media (min-width: 992px) {
-    .container3 {
-      max-width: 1000px;
-    }
+@media (min-width: 768px) {
+  .container2,
+  .container2-csm,
+  .container2-md {
+    max-width: 720px;
   }
-  
-  @media (min-width: 1200px) {
-    .container3{
-      max-width: 1000px;
-    }
-  }
+}
 
-  .row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+@media (min-width: 992px) {
+  .container2,
+  .container2-csm,
+  .container2-md,
+  .container2-lg {
+    max-width: 900px;
   }
-  
+}
+
+@media (min-width: 1200px) {
+  .container2,
+  .container2-csm,
+  .container2-md,
+  .container2-lg,
+  .container2-xl {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container3 {
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container3 {
+    max-width: 1000px;
+  }
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Create four equal columns that sits next to each other */
+.column2 {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column2 {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column2 {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1:hover{
+  color: #790101;
+}
+
+#bg4:hover {
+  background-color: #790101;
+  color: white;
+}
+#bg3:hover {
+  background-color: #790101;
+  color: white;
+}
+#bg2:hover {
+  background-color: #790101;
+  color: white;
+}
+#bg1:hover {
+  background-color: #790101;
+  color: white;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}

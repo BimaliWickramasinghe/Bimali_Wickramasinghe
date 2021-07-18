@@ -8,8 +8,10 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    
     <FlexboxPage />
     <Body />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
