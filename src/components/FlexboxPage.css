@@ -194,8 +194,8 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1:hover{
-  color: #790101;
+h1:hover {
+  color: #535353;
 }
 
 #bg4:hover {
@@ -216,7 +216,7 @@ h1:hover{
 }
 
 .zoom {
-  transition: transform .2s; /* Animation */
+  transition: transform 0.2s; /* Animation */
   margin: 0 auto;
 }
 

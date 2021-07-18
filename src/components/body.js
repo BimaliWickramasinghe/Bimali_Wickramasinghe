@@ -50,7 +50,7 @@ const Body = () => {
           <div class="row1" id="addShadow" style={{padding:'40px', marginTop:'20px'}} >
             <div class="column2">
             <h4>'Happy Smile' Blog Website</h4>
-              <img src={HappySmileLogo}/>
+              <img class="zoom" src={HappySmileLogo}/>
             </div>
             <div class="column2" style={{paddingTop:'30px', paddingLeft:'40px'}}>
             <h6 style={{fontWeight: 'bold'}}>Technologies</h6>
@@ -64,7 +64,7 @@ const Body = () => {
           <div class="row1" id="addShadow" style={{padding:'40px', marginTop:'20px'}} >
             <div class="column2">
             <h4>Tourism Website</h4>
-              <img src={tourism}/>
+              <img class="zoom" src={tourism}/>
             </div>
             <div class="column2" style={{paddingTop:'30px', paddingLeft:'40px'}}>
             <h6 style={{fontWeight: 'bold'}}>Technologies</h6>
@@ -79,7 +79,7 @@ const Body = () => {
           <div class="row1" id="addShadow" style={{padding:'40px', marginTop:'20px'}} >
             <div class="column2">
             <h4>University Information System</h4>
-              <img src={code}/>
+              <img class="zoom" src={code}/>
             </div>
             <div class="column2" style={{paddingTop:'30px', paddingLeft:'40px'}}>
             <h6 style={{fontWeight: 'bold'}}>Technologies</h6>

@@ -9,10 +9,15 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import {Helmet} from "react-helmet";
 
 function App() {
   return (
-    <Router>
+    <div>
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title>Bimali Wickramasinghe</title>
+            </Helmet>
       <ScrollToTop/>
       <FlexboxPage/>
       <Switch>
@@ -21,7 +26,7 @@ function App() {
         <Route path='/ill' component={Body}/>
       </Switch>
 
-    </Router>
+      </div>
   );
 }
 
