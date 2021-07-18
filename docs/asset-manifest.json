@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Bimali_Wickramasinghe/static/css/main.41e2bb06.chunk.css",
-    "main.js": "/Bimali_Wickramasinghe/static/js/main.e72ab37b.chunk.js",
-    "main.js.map": "/Bimali_Wickramasinghe/static/js/main.e72ab37b.chunk.js.map",
-    "runtime-main.js": "/Bimali_Wickramasinghe/static/js/runtime-main.040bdb1d.js",
-    "runtime-main.js.map": "/Bimali_Wickramasinghe/static/js/runtime-main.040bdb1d.js.map",
+    "main.css": "/Bimali_Wickramasinghe/static/css/main.8ae92d79.chunk.css",
+    "main.js": "/Bimali_Wickramasinghe/static/js/main.163ae13c.chunk.js",
+    "main.js.map": "/Bimali_Wickramasinghe/static/js/main.163ae13c.chunk.js.map",
+    "runtime-main.js": "/Bimali_Wickramasinghe/static/js/runtime-main.b8911f31.js",
+    "runtime-main.js.map": "/Bimali_Wickramasinghe/static/js/runtime-main.b8911f31.js.map",
     "static/css/2.150d169a.chunk.css": "/Bimali_Wickramasinghe/static/css/2.150d169a.chunk.css",
-    "static/js/2.79ddf849.chunk.js": "/Bimali_Wickramasinghe/static/js/2.79ddf849.chunk.js",
-    "static/js/2.79ddf849.chunk.js.map": "/Bimali_Wickramasinghe/static/js/2.79ddf849.chunk.js.map",
-    "static/js/3.648e004a.chunk.js": "/Bimali_Wickramasinghe/static/js/3.648e004a.chunk.js",
-    "static/js/3.648e004a.chunk.js.map": "/Bimali_Wickramasinghe/static/js/3.648e004a.chunk.js.map",
+    "static/js/2.0aa21fa2.chunk.js": "/Bimali_Wickramasinghe/static/js/2.0aa21fa2.chunk.js",
+    "static/js/2.0aa21fa2.chunk.js.map": "/Bimali_Wickramasinghe/static/js/2.0aa21fa2.chunk.js.map",
+    "static/js/3.8db8c6c7.chunk.js": "/Bimali_Wickramasinghe/static/js/3.8db8c6c7.chunk.js",
+    "static/js/3.8db8c6c7.chunk.js.map": "/Bimali_Wickramasinghe/static/js/3.8db8c6c7.chunk.js.map",
     "index.html": "/Bimali_Wickramasinghe/index.html",
     "static/css/2.150d169a.chunk.css.map": "/Bimali_Wickramasinghe/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.41e2bb06.chunk.css.map": "/Bimali_Wickramasinghe/static/css/main.41e2bb06.chunk.css.map",
-    "static/js/2.79ddf849.chunk.js.LICENSE.txt": "/Bimali_Wickramasinghe/static/js/2.79ddf849.chunk.js.LICENSE.txt",
+    "static/css/main.8ae92d79.chunk.css.map": "/Bimali_Wickramasinghe/static/css/main.8ae92d79.chunk.css.map",
+    "static/js/2.0aa21fa2.chunk.js.LICENSE.txt": "/Bimali_Wickramasinghe/static/js/2.0aa21fa2.chunk.js.LICENSE.txt",
     "static/media/AVACADO.a3bee1da.jpg": "/Bimali_Wickramasinghe/static/media/AVACADO.a3bee1da.jpg",
     "static/media/COMIC.11012cf1.jpg": "/Bimali_Wickramasinghe/static/media/COMIC.11012cf1.jpg",
     "static/media/COVOID.32d0eef5.jpg": "/Bimali_Wickramasinghe/static/media/COVOID.32d0eef5.jpg",
@@ -28,10 +28,10 @@
     "static/media/tourism.008087a8.png": "/Bimali_Wickramasinghe/static/media/tourism.008087a8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.040bdb1d.js",
+    "static/js/runtime-main.b8911f31.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.79ddf849.chunk.js",
-    "static/css/main.41e2bb06.chunk.css",
-    "static/js/main.e72ab37b.chunk.js"
+    "static/js/2.0aa21fa2.chunk.js",
+    "static/css/main.8ae92d79.chunk.css",
+    "static/js/main.163ae13c.chunk.js"
   ]
 }
