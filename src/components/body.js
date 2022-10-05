@@ -26,9 +26,9 @@ const Body = () => {
             </div>
             <div class="col-sm-auto">
               <h1>Hi, I'm Bimali</h1><br/>
-                I am a third year BSc (Hons) in Software Engineering undergraduate <br/>
-                at University of Kelaniya, Sri Lanka. I currently do my studies on Game <br/>
-                Development, Web Centric and Data Science domains. I am a creative, <br/>
+                I am a fourth year BSc (Hons) in Software Engineering undergraduate <br/>
+                at University of Kelaniya, Sri Lanka. I currently Currently I am engaging <br/>
+                in my final research on UX researching field. I am a creative, <br/>
                 solution-oriented, and fast learning individual with an intention to <br/>
                 guide my knowledge to create a better world. <br/><br/>
                 My passion<br/><br/>
